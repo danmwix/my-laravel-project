@@ -1,0 +1,22 @@
+php artisan make:controller Logincontroller
+php artisan make:migration create_expectant_mothers_table
+php artisan migrate---sends the table to the database
+php artisan make: model name
+-----protected fillable is used in model
+TIPS:
+--make sure the tables are always in plural form 
+--use snakecase
+--use lowercase news_categories
+---making models begin with a captial letter and it should be in singular form
+---model should be in camelcase without spacing
+php artisan route:clear
+ php artisan cache:clear
+php artisan view:clear
+php artisan config:clear
+php artisan serve
+php artisan migrate:rollback --step=1
+php artisan make:model Pharmacist -m
+php artisan make:notification
+composer require pusher/pusher-php-server
+php artisan make:model Prescription -m      ----generates for me both the table and model in laravel
+
